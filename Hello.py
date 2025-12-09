@@ -1,0 +1,2 @@
+Greet="Hello"
+print(Greet)
