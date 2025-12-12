@@ -1,2 +1,2 @@
-Greet="Hello"
-print(Greet)
+# Greet="Hello"
+# print(Greet)
