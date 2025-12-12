@@ -43,10 +43,15 @@
 
 # calculate simple interest
 
-p = float(input("Enter principal: "))
-r = float(input("Enter rate: "))
-t = float(input("Enter time: "))
+# p = float(input("Enter principal: "))
+# r = float(input("Enter rate: "))
+# t = float(input("Enter time: "))
 
-si = (p * r * t) / 100
-print("Simple Interest =", si)
+# si = (p * r * t) / 100
+# print("Simple Interest =", si)
 
+
+# find area of a circle
+# radius = float(input("Enter radius: "))
+# area = 3.14 * radius * radius
+# print("Area of circle =", area)
