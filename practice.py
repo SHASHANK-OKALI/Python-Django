@@ -55,3 +55,11 @@
 # radius = float(input("Enter radius: "))
 # area = 3.14 * radius * radius
 # print("Area of circle =", area)
+
+# check if a character is vowel or not
+
+ch=input("Enter a character:")
+if ch.lower() in "aeiou":
+    print("Vowel")
+else:
+    print("Not a vowel")
