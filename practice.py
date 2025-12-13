@@ -58,8 +58,14 @@
 
 # check if a character is vowel or not
 
-ch=input("Enter a character:")
-if ch.lower() in "aeiou":
-    print("Vowel")
-else:
-    print("Not a vowel")
+# ch=input("Enter a character:")
+# if ch.lower() in "aeiou":
+#     print("Vowel")
+# else:
+#     print("Not a vowel")
+
+# reverse a string
+
+# text = input("Enter a string:")
+# rev = text[::-1]
+# print("Reversed string=",rev)
