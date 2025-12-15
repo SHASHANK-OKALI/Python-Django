@@ -71,9 +71,22 @@
 # print("Reversed string=",rev)
 
 
-year = int(input("Enter a year: "))
+# year = int(input("Enter a year: "))
 
-if year % 4 == 0:
-    print("Leap Year")
+# if year % 4 == 0:
+#     print("Leap Year")
+# else:
+#     print("Not a Leap Year")
+
+num = int(input("Enter a number: "))
+
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print("Not Prime")
+            break
+    else:
+        print("Prime Number")
 else:
-    print("Not a Leap Year")
+    print("Not Prime")
+
