@@ -69,3 +69,11 @@
 # text = input("Enter a string:")
 # rev = text[::-1]
 # print("Reversed string=",rev)
+
+
+year = int(input("Enter a year: "))
+
+if year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
