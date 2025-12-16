@@ -78,15 +78,20 @@
 # else:
 #     print("Not a Leap Year")
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-if num > 1:
-    for i in range(2, num):
-        if num % i == 0:
-            print("Not Prime")
-            break
-    else:
-        print("Prime Number")
-else:
-    print("Not Prime")
+# if num > 1:
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("Not Prime")
+#             break
+#     else:
+#         print("Prime Number")
+# else:
+#     print("Not Prime")
 
+# remove duplicate elements from list
+
+nums = [1,2,2,3,4,4]
+unquie=list(set(nums))
+print(unquie)
