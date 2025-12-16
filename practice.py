@@ -92,6 +92,12 @@
 
 # remove duplicate elements from list
 
-nums = [1,2,2,3,4,4]
-unquie=list(set(nums))
-print(unquie)
+# nums = [1,2,2,3,4,4]
+# unquie=list(set(nums))
+# print(unquie)
+
+# count words in a sentence
+
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+print("Word count =", len(words))
