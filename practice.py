@@ -98,6 +98,16 @@
 
 # count words in a sentence
 
-sentence = input("Enter a sentence: ")
-words = sentence.split()
-print("Word count =", len(words))
+# sentence = input("Enter a sentence: ")
+# words = sentence.split()
+# print("Word count =", len(words))
+
+# Generate random password 
+
+import random
+import string 
+
+password = ""
+for i in range(8):
+    password+=random.choice(string.ascii_letters+string.digits)
+print("Password:",password)
