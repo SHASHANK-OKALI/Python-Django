@@ -104,10 +104,23 @@
 
 # Generate random password 
 
-import random
-import string 
+# import random
+# import string 
 
-password = ""
-for i in range(8):
-    password+=random.choice(string.ascii_letters+string.digits)
-print("Password:",password)
+# password = ""
+# for i in range(8):
+#     password+=random.choice(string.ascii_letters+string.digits)
+# print("Password:",password)
+
+# addition of two matrix
+
+A = [[1, 2], [3, 4]]
+B = [[5, 6], [7, 8]]
+
+result = [[0, 0], [0, 0]]
+
+for i in range(2):
+    for j in range(2):
+        result[i][j] = A[i][j] + B[i][j]
+
+print(result)
