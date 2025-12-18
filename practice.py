@@ -128,8 +128,15 @@
 
 # merge two lists and sort
 
-a=[1,4,6]
-b=[2,3,5]
-merged = a+b
+# a=[1,4,6]
+# b=[2,3,5]
+# merged = a+b
+# merged.sort()
+# print(merged)
+
+a=['c','b','a']
+b=['d','f','e']
+
+merged = a+b 
 merged.sort()
 print(merged)
