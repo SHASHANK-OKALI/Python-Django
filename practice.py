@@ -134,9 +134,18 @@
 # merged.sort()
 # print(merged)
 
-a=['c','b','a']
-b=['d','f','e']
+# a=['c','b','a']
+# b=['d','f','e']
 
-merged = a+b 
-merged.sort()
-print(merged)
+# merged = a+b 
+# merged.sort()
+# print(merged)
+
+# Exception handling example
+
+try:
+    a=int(input("Enter number:"))
+    b=int(input("Enter number:"))
+    print(a/b)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
