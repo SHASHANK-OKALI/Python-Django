@@ -152,14 +152,29 @@
 
 # simple class and object
 
-class Student:
-    def __init__(self, name, marks):
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Marks:", self.marks)
+
+# s = Student("Rahul", 85)
+# s.display()
+
+# simple class and object
+
+class Person:
+    def __init__(self, name, age):
         self.name = name
-        self.marks = marks
+        self.age = age
 
     def display(self):
         print("Name:", self.name)
-        print("Marks:", self.marks)
+        print("Age:", self.age)
 
-s = Student("Rahul", 85)
-s.display()
+p = Person("Shashank", 20)
+p.display()
+
