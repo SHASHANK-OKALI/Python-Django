@@ -166,15 +166,31 @@
 
 # simple class and object
 
-class Person:
-    def __init__(self, name, age):
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Age:", self.age)
+
+# p = Person("Shashank", 20)
+# p.display()
+
+
+# student class (marks & result)
+
+class Student:
+    def __init__(self,name,marks):
         self.name = name
-        self.age = age
+        self.marks=marks
 
-    def display(self):
-        print("Name:", self.name)
-        print("Age:", self.age)
+    def result(self):
+        if self.marks>=40:
+            print(self.name,"Pass")
+        else:
+            print(self.name,"Fail")
 
-p = Person("Shashank", 20)
-p.display()
-
+s1 = Student("Amit",75)
+s1.result()
