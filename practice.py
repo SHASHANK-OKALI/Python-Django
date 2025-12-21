@@ -181,16 +181,35 @@
 
 # student class (marks & result)
 
-class Student:
-    def __init__(self,name,marks):
-        self.name = name
-        self.marks=marks
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks=marks
 
-    def result(self):
-        if self.marks>=40:
-            print(self.name,"Pass")
-        else:
-            print(self.name,"Fail")
+#     def result(self):
+#         if self.marks>=40:
+#             print(self.name,"Pass")
+#         else:
+#             print(self.name,"Fail")
 
-s1 = Student("Amit",75)
-s1.result()
+# s1 = Student("Amit",75)
+# s1.result()
+
+
+# library system
+
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, book):
+        self.books.append(book)
+
+    def show_books(self):
+        for book in self.books:
+            print(book)
+
+lib = Library()
+lib.add_book("Python")
+lib.add_book("Data Structures")
+lib.show_books()
