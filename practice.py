@@ -198,18 +198,47 @@
 
 # library system
 
-class Library:
-    def __init__(self):
-        self.books = []
+# class Library:
+#     def __init__(self):
+#         self.books = []
 
-    def add_book(self, book):
-        self.books.append(book)
+#     def add_book(self, book):
+#         self.books.append(book)
 
-    def show_books(self):
-        for book in self.books:
-            print(book)
+#     def show_books(self):
+#         for book in self.books:
+#             print(book)
 
-lib = Library()
-lib.add_book("Python")
-lib.add_book("Data Structures")
-lib.show_books()
+# lib = Library()
+# lib.add_book("Python")
+# lib.add_book("Data Structures")
+# lib.show_books()
+
+# static method
+
+# class Math:
+#     @staticmethod
+#     def add(a, b):
+#         return a + b
+
+# print(Math.add(5, 3))
+
+# rectangle class
+
+class rectangle:
+    def __init__(self,l,b):
+        self.l= l
+        self.b= b
+
+    def area(self):
+        print("Area=",self.l*self.b)
+
+    def perimeter(self):
+        print("Perimeter=",2*(self.l+self.b))
+
+r=rectangle(5,3)
+r.area()
+r.perimeter()
+
+
+
