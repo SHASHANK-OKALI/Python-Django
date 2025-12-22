@@ -225,20 +225,32 @@
 
 # rectangle class
 
-class rectangle:
-    def __init__(self,l,b):
-        self.l= l
-        self.b= b
+# class rectangle:
+#     def __init__(self,l,b):
+#         self.l= l
+#         self.b= b
 
-    def area(self):
-        print("Area=",self.l*self.b)
+#     def area(self):
+#         print("Area=",self.l*self.b)
 
-    def perimeter(self):
-        print("Perimeter=",2*(self.l+self.b))
+#     def perimeter(self):
+#         print("Perimeter=",2*(self.l+self.b))
 
-r=rectangle(5,3)
-r.area()
-r.perimeter()
+# r=rectangle(5,3)
+# r.area()
+# r.perimeter()
+
+# simple cal using class
+
+class calculator:
+    def add(self,a,b):
+        print("Add=",a+b)
+    def sub(self,a,b):
+        print("Sub=",a-b)
+    
+c = calculator()
+c.add(10,5)
+c.sub(10,5)
 
 
 
