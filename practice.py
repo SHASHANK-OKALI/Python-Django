@@ -254,20 +254,29 @@
 
 # simple timer counter 
 
-class Timer:
-    def __init__(self):
-        self.time = 0
+# class Timer:
+#     def __init__(self):
+#         self.time = 0
 
-    def tick(self):
-        self.time += 1
+#     def tick(self):
+#         self.time += 1
 
+#     def show(self):
+#         print("Time:", self.time)
+
+# t = Timer()
+# t.tick()
+# t.tick()
+# t.show()
+
+# simple message class
+
+class Message:
     def show(self):
-        print("Time:", self.time)
+        print("Welcome to python OOP")
 
-t = Timer()
-t.tick()
-t.tick()
-t.show()
+m=Message()
+m.show()
 
 
 
