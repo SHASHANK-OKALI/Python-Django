@@ -242,15 +242,33 @@
 
 # simple cal using class
 
-class calculator:
-    def add(self,a,b):
-        print("Add=",a+b)
-    def sub(self,a,b):
-        print("Sub=",a-b)
+# class calculator:
+#     def add(self,a,b):
+#         print("Add=",a+b)
+#     def sub(self,a,b):
+#         print("Sub=",a-b)
     
-c = calculator()
-c.add(10,5)
-c.sub(10,5)
+# c = calculator()
+# c.add(10,5)
+# c.sub(10,5)
+
+# simple timer counter 
+
+class Timer:
+    def __init__(self):
+        self.time = 0
+
+    def tick(self):
+        self.time += 1
+
+    def show(self):
+        print("Time:", self.time)
+
+t = Timer()
+t.tick()
+t.tick()
+t.show()
+
 
 
 
