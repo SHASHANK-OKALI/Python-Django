@@ -271,12 +271,22 @@
 
 # simple message class
 
-class Message:
-    def show(self):
-        print("Welcome to python OOP")
+# class Message:
+#     def show(self):
+#         print("Welcome to python OOP")
 
-m=Message()
-m.show()
+# m=Message()
+# m.show()
+
+# Temperature converter
+
+class Temperature:
+    def c_to_f(self, c):
+        print("F =", (c * 9/5) + 32)
+
+t = Temperature()
+t.c_to_f(30)
+
 
 
 
