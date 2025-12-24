@@ -280,12 +280,27 @@
 
 # Temperature converter
 
-class Temperature:
-    def c_to_f(self, c):
-        print("F =", (c * 9/5) + 32)
+# class Temperature:
+#     def c_to_f(self, c):
+#         print("F =", (c * 9/5) + 32)
 
-t = Temperature()
-t.c_to_f(30)
+# t = Temperature()
+# t.c_to_f(30)
+
+# Grade system
+
+class Grade:
+    def calculate(self, marks):
+        if marks >= 75:
+            print("Distinction")
+        elif marks >= 50:
+            print("Pass")
+        else:
+            print("Fail")
+
+g = Grade()
+g.calculate(48)
+
 
 
 
