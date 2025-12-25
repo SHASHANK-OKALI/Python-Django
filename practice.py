@@ -289,17 +289,35 @@
 
 # Grade system
 
-class Grade:
-    def calculate(self, marks):
-        if marks >= 75:
-            print("Distinction")
-        elif marks >= 50:
-            print("Pass")
-        else:
-            print("Fail")
+# class Grade:
+#     def calculate(self, marks):
+#         if marks >= 75:
+#             print("Distinction")
+#         elif marks >= 50:
+#             print("Pass")
+#         else:
+#             print("Fail")
 
-g = Grade()
-g.calculate(48)
+# g = Grade()
+# g.calculate(48)
+
+# simple shopping cart
+
+class Cart:
+    def __init__(self):
+        self.items = []
+
+    def add_item(self, item):
+        self.items.append(item)
+
+    def show_items(self):
+        print(self.items)
+
+c = Cart()
+c.add_item("Pen")
+c.add_item("Book")
+c.show_items()
+
 
 
 
