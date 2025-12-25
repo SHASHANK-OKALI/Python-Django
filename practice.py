@@ -303,20 +303,34 @@
 
 # simple shopping cart
 
-class Cart:
+# class Cart:
+#     def __init__(self):
+#         self.items = []
+
+#     def add_item(self, item):
+#         self.items.append(item)
+
+#     def show_items(self):
+#         print(self.items)
+
+# c = Cart()
+# c.add_item("Pen")
+# c.add_item("Book")
+# c.show_items()
+
+# counter using class variable
+
+class Counter:
+    count = 0
+
     def __init__(self):
-        self.items = []
+        Counter.count += 1
 
-    def add_item(self, item):
-        self.items.append(item)
+obj1 = Counter()
+obj2 = Counter()
 
-    def show_items(self):
-        print(self.items)
+print("Total objects:", Counter.count)
 
-c = Cart()
-c.add_item("Pen")
-c.add_item("Book")
-c.show_items()
 
 
 
