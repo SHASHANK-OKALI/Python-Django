@@ -333,16 +333,20 @@
 
 # prime number
 
-n=int(input("Enter Number:"))
-if n>1:
-    for i in range(2,n):
-        if n%i==0:
-            print("Not prime")
-            break
-        else:
-            print("Prime")
+# n=int(input("Enter Number:"))
+# if n>1:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("Not prime")
+#             break
+#         else:
+#             print("Prime")
 
+# power of a number
 
+a=int(input("Base:"))
+b=int(input("Exponent:"))
+print(a**b)
 
 
 
