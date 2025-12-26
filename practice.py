@@ -320,16 +320,27 @@
 
 # counter using class variable
 
-class Counter:
-    count = 0
+# class Counter:
+#     count = 0
 
-    def __init__(self):
-        Counter.count += 1
+#     def __init__(self):
+#         Counter.count += 1
 
-obj1 = Counter()
-obj2 = Counter()
+# obj1 = Counter()
+# obj2 = Counter()
 
-print("Total objects:", Counter.count)
+# print("Total objects:", Counter.count)
+
+# prime number
+
+n=int(input("Enter Number:"))
+if n>1:
+    for i in range(2,n):
+        if n%i==0:
+            print("Not prime")
+            break
+        else:
+            print("Prime")
 
 
 
