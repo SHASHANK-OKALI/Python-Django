@@ -344,9 +344,9 @@
 
 # power of a number
 
-a=int(input("Base:"))
-b=int(input("Exponent:"))
-print(a**b)
+# a=int(input("Base:"))
+# b=int(input("Exponent:"))
+# print(a**b)
 
 
 
