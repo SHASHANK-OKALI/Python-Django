@@ -349,6 +349,12 @@
 # print(a**b)
 
 
+# Decimal to Binary
+
+# n=int(input("Enter Decimal:"))
+# print(bin(n)[2:])
+
+
 
 
 
