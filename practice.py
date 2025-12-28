@@ -354,6 +354,11 @@
 # n=int(input("Enter Decimal:"))
 # print(bin(n)[2:])
 
+# mean of numbers
+nums = [10, 20, 30, 40]
+mean = sum(nums) / len(nums)
+print("Mean =", mean)
+
 
 
 
