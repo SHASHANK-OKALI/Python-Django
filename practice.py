@@ -355,10 +355,22 @@
 # print(bin(n)[2:])
 
 # mean of numbers
-nums = [10, 20, 30, 40]
-mean = sum(nums) / len(nums)
-print("Mean =", mean)
+# nums = [10, 20, 30, 40]
+# mean = sum(nums) / len(nums)
+# print("Mean =", mean)
 
+
+# reverse number
+
+
+n = int(input("Enter number: "))
+rev = 0
+
+while n > 0:
+    rev = rev * 10 + n % 10
+    n //= 10
+
+print("Reversed number:", rev)
 
 
 
