@@ -1,3 +1,10 @@
+name = "shashank"
+age = 21
+price = 25.99
+print(name)
+print(age)
+print(price)
+
 #print hello world
 # print("Helloo world")
 
@@ -8,4 +15,6 @@
 # b=20
 # c=a+b
 # print(c)
+
+
 
