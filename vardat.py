@@ -1,9 +1,17 @@
-name = "shashank"
-age = 21
-price = 25.99
-print(name)
-print(age)
-print(price)
+# name = "shashank"
+# age = 21
+# price = 25.99
+# print(name)
+# print(age)
+# print(price)
+
+# Typeof
+# name = "shashank"
+# age = 21
+# price = 23.33
+# print(type(name))
+# print(type(age))
+# print(type(price))
 
 #print hello world
 # print("Helloo world")
@@ -15,6 +23,8 @@ print(price)
 # b=20
 # c=a+b
 # print(c)
+
+
 
 
 
