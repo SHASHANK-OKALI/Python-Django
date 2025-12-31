@@ -397,13 +397,28 @@
 
 # check disarium number
 
-n = input("Enter number: ")
-total = 0
+# n = input("Enter number: ")
+# total = 0
 
-for i in range(len(n)):
-    total += int(n[i]) ** (i + 1)
+# for i in range(len(n)):
+#     total += int(n[i]) ** (i + 1)
 
-print("Disarium" if total == int(n) else "Not Disarium")
+# print("Disarium" if total == int(n) else "Not Disarium")
+
+# checking a spy number
+
+n = int(input("Enter number: "))
+s = 0
+p = 1
+
+while n > 0:
+    d = n % 10
+    s += d
+    p *= d
+    n //= 10
+
+print("Spy Number" if s == p else "Not Spy")
+
 
 
 
