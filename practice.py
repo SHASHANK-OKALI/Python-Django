@@ -395,6 +395,17 @@
 # n = int(input("Enter number: "))
 # print("Factorial =", fact(n))
 
+# check disarium number
+
+n = input("Enter number: ")
+total = 0
+
+for i in range(len(n)):
+    total += int(n[i]) ** (i + 1)
+
+print("Disarium" if total == int(n) else "Not Disarium")
+
+
 
 
 
