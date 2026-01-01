@@ -407,17 +407,30 @@
 
 # checking a spy number
 
+# n = int(input("Enter number: "))
+# s = 0
+# p = 1
+
+# while n > 0:
+#     d = n % 10
+#     s += d
+#     p *= d
+#     n //= 10
+
+# print("Spy Number" if s == p else "Not Spy")
+
+# generate prime factors
+
 n = int(input("Enter number: "))
-s = 0
-p = 1
+i = 2
 
-while n > 0:
-    d = n % 10
-    s += d
-    p *= d
-    n //= 10
+while n > 1:
+    if n % i == 0:
+        print(i, end=" ")
+        n //= i
+    else:
+        i += 1
 
-print("Spy Number" if s == p else "Not Spy")
 
 
 
