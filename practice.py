@@ -444,11 +444,19 @@
 
 # count substring occurances
 
-s = input("Enter string: ")
-sub = input("Enter substring: ")
+# s = input("Enter string: ")
+# sub = input("Enter substring: ")
 
-count = s.count(sub)
-print("Count:", count)
+# count = s.count(sub)
+# print("Count:", count)
+
+# intersection 
+
+a = [1, 2, 3, 4]
+b = [3, 4, 5, 6]
+
+print(list(set(a) & set(b)))
+
 
 
 
