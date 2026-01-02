@@ -435,12 +435,21 @@
 
 # finding the sum of digits of a number
 
-def sum_digits(n):
-    if n == 0:
-        return 0
-    return n % 10 + sum_digits(n // 10)
+# def sum_digits(n):
+#     if n == 0:
+#         return 0
+#     return n % 10 + sum_digits(n // 10)
 
-print(sum_digits(321))
+# print(sum_digits(321))
+
+# count substring occurances
+
+s = input("Enter string: ")
+sub = input("Enter substring: ")
+
+count = s.count(sub)
+print("Count:", count)
+
 
 
 
