@@ -452,10 +452,16 @@
 
 # intersection 
 
-a = [1, 2, 3, 4]
-b = [3, 4, 5, 6]
+# a = [1, 2, 3, 4]
+# b = [3, 4, 5, 6]
 
-print(list(set(a) & set(b)))
+# print(list(set(a) & set(b)))
+
+# checking positive and negative
+
+n = int(input("Enter number: "))
+print("Positive" if n > 0 else "Negative")
+
 
 
 
