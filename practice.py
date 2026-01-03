@@ -459,8 +459,14 @@
 
 # checking positive and negative
 
-n = int(input("Enter number: "))
-print("Positive" if n > 0 else "Negative")
+# n = int(input("Enter number: "))
+# print("Positive" if n > 0 else "Negative")
+
+# Find max in list
+
+lst = [5, 8, 2]
+print(max(lst))
+
 
 
 
