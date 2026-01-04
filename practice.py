@@ -469,14 +469,30 @@
 
 # remove duplicates from list
 
-lst = [1, 2, 2, 3, 4, 4]
-res = []
+# lst = [1, 2, 2, 3, 4, 4]
+# res = []
+
+# for i in lst:
+#     if i not in res:
+#         res.append(i)
+
+# print(res)
+
+
+# Linear search
+
+lst = [10, 20, 30, 40]
+key = 30
 
 for i in lst:
-    if i not in res:
-        res.append(i)
+    if i == key:
+        print("Found")
+        break
+else:
+    print("Not Found")
 
-print(res)
+
+
 
 
 
