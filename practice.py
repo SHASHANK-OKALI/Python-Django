@@ -464,8 +464,20 @@
 
 # Find max in list
 
-lst = [5, 8, 2]
-print(max(lst))
+# lst = [5, 8, 2]
+# print(max(lst))
+
+# remove duplicates from list
+
+lst = [1, 2, 2, 3, 4, 4]
+res = []
+
+for i in lst:
+    if i not in res:
+        res.append(i)
+
+print(res)
+
 
 
 
