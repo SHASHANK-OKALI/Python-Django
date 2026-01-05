@@ -481,15 +481,23 @@
 
 # Linear search
 
-lst = [10, 20, 30, 40]
-key = 30
+# lst = [10, 20, 30, 40]
+# key = 30
 
-for i in lst:
-    if i == key:
-        print("Found")
-        break
-else:
-    print("Not Found")
+# for i in lst:
+#     if i == key:
+#         print("Found")
+#         break
+# else:
+#     print("Not Found")
+
+# Anagram check
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+print("Anagram" if sorted(s1) == sorted(s2) else "Not Anagram")
+
 
 
 
