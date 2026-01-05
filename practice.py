@@ -493,10 +493,22 @@
 
 # Anagram check
 
-s1 = input("Enter first string: ")
-s2 = input("Enter second string: ")
+# s1 = input("Enter first string: ")
+# s2 = input("Enter second string: ")
 
-print("Anagram" if sorted(s1) == sorted(s2) else "Not Anagram")
+# print("Anagram" if sorted(s1) == sorted(s2) else "Not Anagram")
+
+# Threading example
+
+import threading
+
+def task():
+    print("Task running")
+
+t1 = threading.Thread(target=task)
+t1.start()
+t1.join()
+
 
 
 
