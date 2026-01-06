@@ -513,20 +513,32 @@
 
 # Program to find LCM of two numbers
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
 
 # Find GCD using Euclidean algorithm
-x, y = a, b
-while y != 0:
-    x, y = y, x % y
+# x, y = a, b
+# while y != 0:
+#     x, y = y, x % y
 
-gcd = x
+# gcd = x
 
 # Calculate LCM
-lcm = (a * b) // gcd
+# lcm = (a * b) // gcd
 
-print("LCM of", a, "and", b, "is:", lcm)
+# print("LCM of", a, "and", b, "is:", lcm)
+
+
+# find prime numbers in a range
+
+n = int(input("Enter range: "))
+
+for i in range(2, n+1):
+    for j in range(2, int(i**0.5)+1):
+        if i % j == 0:
+            break
+    else:
+        print(i, end=" ")
 
 
 
