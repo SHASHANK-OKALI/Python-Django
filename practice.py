@@ -500,14 +500,35 @@
 
 # Threading example
 
-import threading
+# import threading
 
-def task():
-    print("Task running")
+# def task():
+#     print("Task running")
 
-t1 = threading.Thread(target=task)
-t1.start()
-t1.join()
+# t1 = threading.Thread(target=task)
+# t1.start()
+# t1.join()
+
+# find lcm of two numbers
+
+# Program to find LCM of two numbers
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+# Find GCD using Euclidean algorithm
+x, y = a, b
+while y != 0:
+    x, y = y, x % y
+
+gcd = x
+
+# Calculate LCM
+lcm = (a * b) // gcd
+
+print("LCM of", a, "and", b, "is:", lcm)
+
+
 
 
 
