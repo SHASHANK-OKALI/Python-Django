@@ -542,10 +542,22 @@
 
 # square and cube
 
-n=int(input("Enter number :"))
-print("Square:",n*n)
-print("cube:",n**3)
+# n=int(input("Enter number :"))
+# print("Square:",n*n)
+# print("cube:",n**3)
 
+
+# prime factorization
+
+n=int(input("Enter number:"))
+i=2
+
+while n>1:
+    if n%i==0:
+        print(i,end=" ")
+        n //=i
+    else:
+        i += 1
 
 
 
