@@ -531,17 +531,20 @@
 
 # find prime numbers in a range
 
-n = int(input("Enter range: "))
+# n = int(input("Enter range: "))
 
-for i in range(2, n+1):
-    for j in range(2, int(i**0.5)+1):
-        if i % j == 0:
-            break
-    else:
-        print(i, end=" ")
+# for i in range(2, n+1):
+#     for j in range(2, int(i**0.5)+1):
+#         if i % j == 0:
+#             break
+#     else:
+#         print(i, end=" ")
 
+# square and cube
 
-
+n=int(input("Enter number :"))
+print("Square:",n*n)
+print("cube:",n**3)
 
 
 
