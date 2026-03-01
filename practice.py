@@ -560,6 +560,22 @@
 #         i += 1
 
 
+#include <stdio.h>
+int main() {
+    int n, i;
+    float sum = 0, a[100];
+
+    scanf("%d", &n);
+    for(i = 0; i < n; i++) {
+        scanf("%f", &a[i]);
+        sum += a[i];
+    }
+
+    printf("Mean = %.2f", sum / n);
+    return 0;
+}
+
+
 
 
 
